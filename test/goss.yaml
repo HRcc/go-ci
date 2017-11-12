@@ -1,0 +1,30 @@
+file: 
+  /bitbucket-pipelines-go.sh:
+    exists: true
+    mode: "0755"
+    owner: root
+    group: root
+    filetype: file
+
+command:
+  dep version:
+    title: Checking that dep manager is installed
+    exit-status: 0
+    stdout:
+      - /v0\.3\.2/
+    stderr: []
+    timeout: 1000
+  
+  ginkgo version:
+    title: Checking that ginkgo is installed
+    exit-status: 0
+    stdout:
+      - /Ginkgo Version/
+    stderr: []
+    timeout: 1000
+
+  golint:
+    title: Checking that golint is installed
+    exit-status: 0
+    stderr: []
+    timeout: 1000
