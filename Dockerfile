@@ -11,6 +11,7 @@ RUN go get golang.org/x/tools/cmd/cover
 RUN go get github.com/onsi/ginkgo/ginkgo
 RUN go get github.com/onsi/gomega  
 RUN go get github.com/golang/lint/golint
+RUN go get github.com/jteeuwen/go-bindata/...
 
 COPY ./config/bitbucket-pipelines-go.sh /bitbucket-pipelines-go.sh
 RUN chmod +x /bitbucket-pipelines-go.sh

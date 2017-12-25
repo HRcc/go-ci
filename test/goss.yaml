@@ -28,3 +28,9 @@ command:
     exit-status: 0
     stderr: []
     timeout: 1000
+
+  go-bindata --version:
+    title: Checking that go-bindata is installed
+    exit-status: 0
+    stderr: []
+    timeout: 1000

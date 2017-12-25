@@ -1,24 +1,25 @@
 IMAGE               CREATED                  CREATED BY                                      SIZE                COMMENT
-6d5ec0d89148        Less than a second ago   /bin/sh -c chmod +x /bitbucket-pipelines-g...   847B                
-1a1868004222        2 seconds ago            /bin/sh -c #(nop) COPY file:8836a425b7c83a...   847B                
-b7789284cf6a        2 seconds ago            /bin/sh -c go get github.com/golang/lint/g...   6.41MB              
-634d0810c89f        10 seconds ago           /bin/sh -c go get github.com/onsi/gomega        68.4MB              
-2612966f6f60        45 seconds ago           /bin/sh -c go get github.com/onsi/ginkgo/g...   17.3MB              
-b27b9ea74b5c        54 seconds ago           /bin/sh -c go get golang.org/x/tools/cmd/c...   4.97MB              
-154023c1b86e        57 seconds ago           /bin/sh -c go get github.com/mattn/goveralls    33.8MB              
-54d759065bfa        About a minute ago       /bin/sh -c wget https://github.com/golang/...   7.97MB              
-9874acc02f1b        About a minute ago       /bin/sh -c curl -fsSL https://goss.rocks/i...   8.52MB              
-6d4da0dc7a87        23 minutes ago           /bin/sh -c #(nop)  LABEL maintainer=HRcc        0B                  
-1a34fad76b34        8 days ago               /bin/sh -c #(nop) COPY file:ea7c9f4702f94a...   2.48kB              
-<missing>           8 days ago               /bin/sh -c #(nop) WORKDIR /go                   0B                  
-<missing>           8 days ago               /bin/sh -c mkdir -p "$GOPATH/src" "$GOPATH...   0B                  
-<missing>           8 days ago               /bin/sh -c #(nop)  ENV PATH=/go/bin:/usr/l...   0B                  
-<missing>           8 days ago               /bin/sh -c #(nop)  ENV GOPATH=/go               0B                  
-<missing>           8 days ago               /bin/sh -c set -eux;   dpkgArch="$(dpkg --...   298MB               
-<missing>           8 days ago               /bin/sh -c #(nop)  ENV GOLANG_VERSION=1.9.2     0B                  
-<missing>           8 days ago               /bin/sh -c apt-get update && apt-get insta...   162MB               
-<missing>           8 days ago               /bin/sh -c apt-get update && apt-get insta...   142MB               
-<missing>           8 days ago               /bin/sh -c set -ex;  if ! command -v gpg >...   7.8MB               
-<missing>           8 days ago               /bin/sh -c apt-get update && apt-get insta...   23.8MB              
-<missing>           8 days ago               /bin/sh -c #(nop)  CMD ["bash"]                 0B                  
-<missing>           8 days ago               /bin/sh -c #(nop) ADD file:a71e077a42995a6...   100MB               
+5604ff0735b0        Less than a second ago   /bin/sh -c chmod +x /bitbucket-pipelines-g...   847B                
+95fc7649a403        1 second ago             /bin/sh -c #(nop) COPY file:8836a425b7c83a...   847B                
+9114b0531e3e        1 second ago             /bin/sh -c go get github.com/jteeuwen/go-b...   4.05MB              
+597804a61ff0        5 seconds ago            /bin/sh -c go get github.com/golang/lint/g...   6.43MB              
+c65bb06ec35f        9 seconds ago            /bin/sh -c go get github.com/onsi/gomega        73.1MB              
+3fd48e54721d        27 seconds ago           /bin/sh -c go get github.com/onsi/ginkgo/g...   17.3MB              
+a812923b3f70        37 seconds ago           /bin/sh -c go get golang.org/x/tools/cmd/c...   4.98MB              
+cfd669b3d138        39 seconds ago           /bin/sh -c go get github.com/mattn/goveralls    33.9MB              
+c62729ee421b        47 seconds ago           /bin/sh -c wget https://github.com/golang/...   7.97MB              
+f3313300bcf0        58 seconds ago           /bin/sh -c curl -fsSL https://goss.rocks/i...   8.52MB              
+06f3bfb18cb2        About a minute ago       /bin/sh -c #(nop)  LABEL maintainer=HRcc        0B                  
+138bd936fa29        12 days ago              /bin/sh -c #(nop) COPY file:ea7c9f4702f94a...   2.48kB              
+<missing>           12 days ago              /bin/sh -c #(nop) WORKDIR /go                   0B                  
+<missing>           12 days ago              /bin/sh -c mkdir -p "$GOPATH/src" "$GOPATH...   0B                  
+<missing>           12 days ago              /bin/sh -c #(nop)  ENV PATH=/go/bin:/usr/l...   0B                  
+<missing>           12 days ago              /bin/sh -c #(nop)  ENV GOPATH=/go               0B                  
+<missing>           12 days ago              /bin/sh -c set -eux;   dpkgArch="$(dpkg --...   298MB               
+<missing>           12 days ago              /bin/sh -c #(nop)  ENV GOLANG_VERSION=1.9.2     0B                  
+<missing>           12 days ago              /bin/sh -c apt-get update && apt-get insta...   162MB               
+<missing>           12 days ago              /bin/sh -c apt-get update && apt-get insta...   142MB               
+<missing>           12 days ago              /bin/sh -c set -ex;  if ! command -v gpg >...   7.8MB               
+<missing>           12 days ago              /bin/sh -c apt-get update && apt-get insta...   23.8MB              
+<missing>           12 days ago              /bin/sh -c #(nop)  CMD ["bash"]                 0B                  
+<missing>           12 days ago              /bin/sh -c #(nop) ADD file:eb2519421c9794c...   100MB               
